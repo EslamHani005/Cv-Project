@@ -1,0 +1,215 @@
+* {
+    list-style-type: none;
+}
+
+body {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-color:burlywood;
+}
+
+.menu-div {
+    background-color: black;
+}
+
+.ul-menu {
+    color: floralwhite;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.li-menu {
+    float: left;
+    font-size: 25px;
+}
+
+.a-menu {
+    text-decoration: none;
+    color: floralwhite;
+    display: block;
+    padding: 17px;
+}
+
+.name-menu {
+    color: floralwhite;
+    font-size: 40px;
+    display: inline;
+}
+
+.li-menu a:hover {
+    background-color: skyblue;
+}
+
+.main-- {
+    float: right;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.photo-main {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.soc-png {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    /* border-radius: 50px; */
+}
+
+.skills-name {
+    float: left;
+    width: 25%;
+}
+
+.skills-pip {
+    width: 75%;
+    float: right;
+}
+.row{
+    padding :5px;
+}
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.main-pip {
+    background-color: grey;
+    display: block;
+    height: 20px;
+}
+
+.main-pip span {
+    background-color: skyblue;
+    height: 20px;
+    display: block;
+    color: white;
+}
+
+.cc {
+    width: 90%;
+    animation: cc 2s;
+}
+
+.JavaScript {
+    width: 80%;
+    animation: JavaScript 2s;
+}
+
+.Python {
+    width: 70%;
+    animation: Python 2s;
+}
+
+.hh {
+    width: 50%;
+    animation: hh 2s;
+}
+
+.pp {
+    width: 70%;
+    animation: pp 2s;
+}
+
+.Linu {
+    width: 80%;
+    animation: Linu 2s;
+}
+
+@keyframes cc {
+    0% {
+        width: 0%;
+        background-color: brown;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes JavaScript {
+    0% {
+        width: 0%;
+        background-color: brown;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes Python {
+    0% {
+        width: 0%;
+        background-color: brown;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes hh {
+    0% {
+        width: 0%;
+        background-color: brown;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes pp {
+    0% {
+        width: 0%;
+        background-color: brown;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes Linu {
+    0% {
+        width: 0%;
+        background-color: brown;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+.footer{
+    background-color: black;
+    color :white;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    padding-top: 00.1px;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    font-size: 15px;
+  }
+.pron{
+    float:right;
+    width: 33%;
+}
+.pro-main{
+text-align: center;
+}
+@media screen and (max-width:800px){
+    .main--{
+        width: 100%;
+    }
+}
